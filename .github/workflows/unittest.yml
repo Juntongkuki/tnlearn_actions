@@ -18,7 +18,12 @@ jobs:
       - name: test_base
         run: |
           git clone https://github.com/Juntongkuki/tnlearn_actions
-          cd tnlearn_actions/tests
+          cd tnlearn_actions
+
+      - name: test_base.py
+        run: |
+          cd tests
+          python -m unittest test_base
           
       - name: install
         run: |
@@ -40,6 +45,8 @@ jobs:
           pip install tqdm~=4.66.2
           
       - name: test_base.py
-        run: python -m unittest test_base
+        run: |
+          cd tests
+          python -m unittest test_base
 
     
