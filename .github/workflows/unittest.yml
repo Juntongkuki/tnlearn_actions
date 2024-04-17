@@ -19,4 +19,10 @@ jobs:
         run: |
           git clone https://github.com/Juntongkuki/tnlearn_actions
           cd tnlearn_actions/tests
+
+      - name: install tnlearn
+        run: pip install tnlearn~=0.1
+
+      - name: run test_base
+        run: python test_base.py
     
