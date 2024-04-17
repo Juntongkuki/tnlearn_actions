@@ -13,13 +13,13 @@ on: workflow_dispatch
 jobs:
 
   unittest:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: test_base
         run: |
           git clone https://github.com/Juntongkuki/tnlearn_actions
-          cd tnlearn_actions/tests
+          cd tnlearn_actions
 
       - name: run test_base
-        run: python test_base.py
+        run: python ./tests/test_base.py
     
