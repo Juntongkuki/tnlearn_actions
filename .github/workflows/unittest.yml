@@ -15,9 +15,9 @@ jobs:
   unittest:
     runs-on: ubuntu-latest
     steps:
-    - name: test_base
-      run:
-        git clone https://github.com/Juntongkuki/tnlearn_actions
-        cd tnlearn_actions/tests
-        date
+      - name: test_base
+        run:
+          git clone https://github.com/Juntongkuki/tnlearn_actions
+          cd tnlearn_actions/tests
+          date
     
