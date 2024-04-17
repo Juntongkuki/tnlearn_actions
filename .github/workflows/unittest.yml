@@ -21,7 +21,7 @@ jobs:
           cd tnlearn_actions/tests
 
       - name: install tnlearn
-        run: pip install tnlearn~=0.1
+        run: pip install tnlearn
 
       - name: run test_base
         run: python test_base.py
