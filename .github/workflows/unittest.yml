@@ -13,7 +13,7 @@ on: workflow_dispatch
 jobs:
 
   unittest:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - name: test_base
         run: |
