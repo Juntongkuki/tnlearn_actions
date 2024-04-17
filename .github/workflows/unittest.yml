@@ -18,6 +18,8 @@ jobs:
       - name: test_base
         run: |
           git clone https://github.com/Juntongkuki/tnlearn_actions
+          cd tests
+          python print.py
 
       - name: test_base.py
         run: |
