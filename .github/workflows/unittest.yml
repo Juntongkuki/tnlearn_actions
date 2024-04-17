@@ -18,8 +18,7 @@ jobs:
       - name: test_base
         run: |
           git clone https://github.com/Juntongkuki/tnlearn_actions
-          cd tnlearn_actions
+          cd tnlearn_actions/tests
+          python -m unittest test_base
 
-      - name: test_base.py
-        run: python -m unittest test/test_base
     
