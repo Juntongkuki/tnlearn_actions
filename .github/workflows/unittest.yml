@@ -21,5 +21,5 @@ jobs:
           cd tnlearn_actions
 
       - name: run test_base
-        run: python ./tests/test_base.py
+        run: python tests/test_base.py
     
