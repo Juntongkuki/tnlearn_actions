@@ -21,9 +21,6 @@ jobs:
           cd tnlearn_actions
           cd tests
           python print.py
-
-      - name: test_base.py
-        run: |
           python -m unittest test_base
           
       - name: install
