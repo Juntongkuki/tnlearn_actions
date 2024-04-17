@@ -22,7 +22,6 @@ jobs:
           cd tests
           pip install h5py~=3.10.0
           pip install numpy~=1.26.2
-          pip install tnlearn~=0.1
           pip install torch~=2.1.0
           pip install sympy~=1.12
           pip install setuptools~=68.0.0
