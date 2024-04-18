@@ -19,8 +19,6 @@ jobs:
         run: |
           git clone https://github.com/Juntongkuki/tnlearn_actions
           cd tnlearn_actions
-          cd tests
-          python print.py
           pip install h5py~=3.10.0
           pip install numpy~=1.26.2
           pip install torch~=2.1.0
@@ -36,8 +34,7 @@ jobs:
           pip install packaging~=23.2
           pip install ipython~=8.18.1
           pip install tqdm~=4.66.2
-          python print.py
-          python -m unittest test_base
+          python -m unittest
           
       
     
