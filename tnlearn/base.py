@@ -16,7 +16,7 @@ Note: This overview assumes that the Visualization class and all dependencies of
 
 import os
 import torch
-from tnlearn_actions.tnlearn.utils import Visualization
+from tnlearn.utils import Visualization
 from sklearn.metrics import roc_auc_score, f1_score, recall_score, precision_score
 
 
