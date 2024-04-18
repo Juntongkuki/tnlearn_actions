@@ -18,7 +18,7 @@ import unittest
 import torch
 import os
 import sys
-from tnlearn.tnlearn.base import BaseModel
+from tnlearn_actions.tnlearn.base import BaseModel
 
 
 # MockModel extends the base class BaseModel to provide a mock implementation.
