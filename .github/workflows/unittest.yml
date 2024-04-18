@@ -18,7 +18,6 @@ jobs:
       - name: test_base
         run: |
           git clone https://github.com/Juntongkuki/tnlearn_actions
-          cd tnlearn_actions
           cd tests
           pip install h5py~=3.10.0
           pip install numpy~=1.26.2
