@@ -109,6 +109,9 @@ class TestBaseModel(unittest.TestCase):
             self.fail(f"plot_progress method failed with an exception {e}.")
 
 
+
+
 # This conditional is used to run the tests when this script is executed.
 if __name__ == '__main__':
-    unittest.main()
+    a = TestBaseModel()
+    a.unittest.main()
